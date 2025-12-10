@@ -62,6 +62,13 @@ vue --version
 3.7.0
 ```
 
+### _Visual Studio Code_ installieren
+
+Das RPM Paket kann von https://code.visualstudio.com/ kopiert werden.
+
+```
+```
+
 # Änderungen 
 
 ## Doku
