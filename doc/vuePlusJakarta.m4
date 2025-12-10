@@ -21,21 +21,55 @@ date:
 ---
 )
 
-Die Quellen und die Doku sind auf [https://github.com/bayerwald/maschinenDaten](https://github.com/bayerwald/maschinenDaten) zu finden.
+Die Quellen und die Doku sind auf [https://github.com/dumischbaenger/vuePlusJakarta](https://github.com/dumischbaenger/vuePlusJakarta) zu finden.
 
-# Aufgabe
+# Vorwort
 
 In diesem Repository ist meine Version des Tutorials _Full-Stack Web Development with Jakarta EE and Vue.js_.
 
+# Vue
 
-m4_ifelse([[
+## Vorbereitungen
+
+Um mit _Vue_ beginnen zu können, brauchen wir zuerst _node_, _npm_, _Vue CLI_ und _VS Code_.
+
+### _node_ und _npm_ installieren
+
+Für eine einfache und flexible Bereitstellung von _node_ benutzt man am einfachsten
+_nvm_.
+
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+nvm --version
+0.40.3
+
+nvm install 11.3
+nvm use 11.3
+node --version
+v11.3.0
+
+npm --version
+6.4.1
+```
+
+### _Vue CLI_ installieren
+
+```
+npm install -g @vue/cli
+vue --version
+3.7.0
+```
 
 # Änderungen 
 
 ## Doku
 
-m4_esyscmd([[git log --pretty='format:~~~%n%as %an %s%n%n%b%n~~~%n' maschinenDaten.m4 | sed -e '/^ *$/d']])
+m4_esyscmd([[git log --pretty='format:~~~%n%as %an %s%n%n%b%n~~~%n' vuePlusJakarta.m4 | sed -e '/^ *$/d']])
 
+
+m4_ifelse([[
 
 ## Docker
 

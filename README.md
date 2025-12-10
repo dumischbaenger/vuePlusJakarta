@@ -8,11 +8,6 @@
 
 
 
----
-title: Tutorial Vue und Jakarta EE
-author:  Bernhard Donaubauer 
-date: 
----
 
 
 Die Quellen und die Doku sind auf [https://github.com/dumischbaenger/vuePlusJakarta](https://github.com/dumischbaenger/vuePlusJakarta) zu finden.

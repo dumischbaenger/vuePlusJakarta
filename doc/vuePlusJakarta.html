@@ -45,7 +45,7 @@
     <script src="https://cdn.jsdelivr.net/gh/diversen/pandoc-bootstrap-adaptive-template@959c3622/jquery.sticky-kit.js"></script>
     <meta name="generator" content="pandoc" />
   <meta name="author" content="Bernhard Donaubauer" />
-  <meta name="date" content="2025-12-09" />
+  <meta name="date" content="2025-12-10" />
   <title>Tutorial Vue und Jakarta EE</title>
   <style type="text/css">code{white-space: pre;}</style>
   <!-- ******************************************************************************
@@ -87,7 +87,7 @@
         <ul class="nav pull-right doc-info">
                     <li><p class="navbar-text">Bernhard
 Donaubauer</p></li>
-                              <li><p class="navbar-text">2025-12-09</p></li>
+                              <li><p class="navbar-text">2025-12-10</p></li>
                   </ul>
       </div>
     </div>
@@ -98,7 +98,24 @@ Donaubauer</p></li>
         <div class="well toc">
 
         <ul>
-        <li><a href="#aufgabe" id="toc-aufgabe">Aufgabe</a></li>
+        <li><a href="#vorwort" id="toc-vorwort">Vorwort</a></li>
+        <li><a href="#vue" id="toc-vue">Vue</a>
+        <ul>
+        <li><a href="#vorbereitungen"
+        id="toc-vorbereitungen">Vorbereitungen</a>
+        <ul>
+        <li><a href="#node-und-npm-installieren"
+        id="toc-node-und-npm-installieren"><em>node</em> und
+        <em>npm</em> installieren</a></li>
+        <li><a href="#vue-cli-installieren"
+        id="toc-vue-cli-installieren"><em>Vue CLI</em>
+        installieren</a></li>
+        </ul></li>
+        </ul></li>
+        <li><a href="#änderungen" id="toc-änderungen">Änderungen</a>
+        <ul>
+        <li><a href="#doku" id="toc-doku">Doku</a></li>
+        </ul></li>
         </ul>
 
         </div>
@@ -107,11 +124,39 @@ Donaubauer</p></li>
 
       
       <p>Die Quellen und die Doku sind auf <a
-href="https://github.com/bayerwald/maschinenDaten">https://github.com/bayerwald/maschinenDaten</a>
+href="https://github.com/dumischbaenger/vuePlusJakarta">https://github.com/dumischbaenger/vuePlusJakarta</a>
 zu finden.</p>
-<h1 id="aufgabe">Aufgabe</h1>
+<h1 id="vorwort">Vorwort</h1>
 <p>In diesem Repository ist meine Version des Tutorials <em>Full-Stack
 Web Development with Jakarta EE and Vue.js</em>.</p>
+<h1 id="vue">Vue</h1>
+<h2 id="vorbereitungen">Vorbereitungen</h2>
+<p>Um mit <em>Vue</em> beginnen zu können, brauchen wir zuerst
+<em>node</em>, <em>npm</em>, <em>Vue CLI</em> und <em>VS Code</em>.</p>
+<h3 id="node-und-npm-installieren"><em>node</em> und <em>npm</em>
+installieren</h3>
+<p>Für eine einfache und flexible Bereitstellung von <em>node</em>
+benutzt man am einfachsten <em>nvm</em>.</p>
+<pre><code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+nvm --version
+0.40.3
+
+nvm install 11.3
+nvm use 11.3
+node --version
+v11.3.0
+
+npm --version
+6.4.1</code></pre>
+<h3 id="vue-cli-installieren"><em>Vue CLI</em> installieren</h3>
+<pre><code>npm install -g @vue/cli
+vue --version
+3.7.0</code></pre>
+<h1 id="änderungen">Änderungen</h1>
+<h2 id="doku">Doku</h2>
+<pre><code>2025-12-10 Bernhard Donaubauer Doku Installation von Node und Vue</code></pre>
+<pre><code>2025-12-10 Bernhard Donaubauer Rumpf fuer Doku hinzu</code></pre>
             </div>
     </div>
   </div>
